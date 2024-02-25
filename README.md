@@ -9,25 +9,37 @@ Trois exercices distincts ont été abordés, chacun couvrant des aspects spéci
 
 * Rappel des Principes :
 
-     .  Mode de communication non connecté.
-     .  Chaque datagramme est transféré indépendamment.
-     .  Aucune garantie sur l'arrivée des paquets ni sur l'ordre d'arrivée.
+     .  Mode de communication non connecté
+  
+     .  Chaque datagramme est transféré indépendamment
+  
+     .  Aucune garantie sur l'arrivée des paquets ni sur l'ordre d'arrivée
+  
      .  La seule garantie est que les données reçues sont sans erreur.
 * Déroulement :
 
 - Côté Client (client_UDP) :
 
 .Saisie de l'adresse du serveur et du port d'écoute.
+
 .Création d'un DatagramSocket.
-.Envoi d'un paquet contenant la chaîne "Hello World".
+
+.Envoi d'un paquet contenant une chaîne 
+
 .Réception d'une réponse du serveur.
+
 .Affichage de la réponse.
 
 - Côté Serveur (serveur_UDP) :
+  
 .Saisie du port d'écoute.
+
 .Création d'un DatagramSocket lié au port spécifié.
+
 .Attente de la réception d'un paquet.
+
 .Affichage des données reçues.
+
 .Envoi d'une réponse au client.
 
 ------------------------ Exercice 2 : Échange d'objets Voiture avec UDP -----------------------
