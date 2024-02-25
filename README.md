@@ -5,7 +5,7 @@ Objectifs du TP :
 Le TP vise à illustrer la mise en œuvre du protocole de transport UDP (mode non connecté) à l'aide des sockets en Java.
 Trois exercices distincts ont été abordés, chacun couvrant des aspects spécifiques de la programmation réseau avec UDP.
 
--------------------------------------------- Exercice 1 : Communication basique avec UDP --------------------------------------------
+------------------------ Exercice 1 : Communication basique avec UDP ----------------------------
 * Rappel des Principes :
 
      .  Mode de communication non connecté.
@@ -29,7 +29,7 @@ Trois exercices distincts ont été abordés, chacun couvrant des aspects spéci
 .Affichage des données reçues.
 .Envoi d'une réponse au client.
 
--------------------------------------------- Exercice 2 : Échange d'objets Voiture avec UDP --------------------------------------------
+------------------------ Exercice 2 : Échange d'objets Voiture avec UDP -----------------------
 Objectif :
 Échange d'objets de la classe voiture entre le client et le serveur.
 Déroulement :
@@ -48,7 +48,7 @@ Déroulement :
 .Affichage des informations de l'objet.
 .Envoi d'une réponse au client.
 
--------------------------------------------- Exercice 3 : Serveur UDP renvoyant la date et l'heure --------------------------------------------
+------------------------- Exercice 3 : Serveur UDP renvoyant la date et l'heure ----------------------
 Objectif :
 Création d'un serveur UDP répondant à chaque datagramme avec la date et l'heure actuelle.
 Déroulement :
