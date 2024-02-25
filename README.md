@@ -3,7 +3,8 @@
 
 Objectifs du TP :
 Le TP vise à illustrer la mise en œuvre du protocole de transport UDP (mode non connecté) à l'aide des sockets en Java.
-Trois exercices distincts ont été abordés, chacun couvrant des aspects spécifiques de la programmation réseau avec UDP.
+
+3 exercices distincts ont été abordés, chacun couvrant des aspects spécifiques de la programmation réseau avec UDP.
 
 ------------------------ Exercice 1 : Communication basique avec UDP ----------------------------
 
