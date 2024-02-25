@@ -50,16 +50,22 @@ Déroulement :
 
 * Côté Client (client_UDP) :
 
-.Création d'un objet de la classe voiture.
-.Sérialisation de l'objet.
+.Création d'un objet de la classe voiture
+
+.Sérialisation de l'objet
+
 .Envoi de l'objet sérialisé au serveur.
 
 * Côté Serveur (serveur_UDP) :
 
-.Réception de l'objet sérialisé.
-.Désérialisation de l'objet.
-.Manipulation de l'objet (modification de la quantité de carburant).
-.Affichage des informations de l'objet.
+.Réception de l'objet sérialisé
+
+.Désérialisation de l'objet
+
+.Manipulation de l'objet (modification de la quantité de carburant)
+
+.Affichage des informations de l'objet
+
 .Envoi d'une réponse au client.
 
 ------------------------- Exercice 3 : Serveur UDP renvoyant la date et l'heure ----------------------
@@ -69,10 +75,15 @@ Création d'un serveur UDP répondant à chaque datagramme avec la date et l'heu
 Déroulement :
 
 * Serveur (serveur_UDP) :
-.Écoute sur le port 1250 en permanence.
-.Réception d'un datagramme.
-.Récupération de l'adresse de l'émetteur.
-.Envoi d'un datagramme contenant la date et l'heure.
+  
+.Écoute sur le port 1250 en permanence
+
+.Réception d'un datagramme
+
+.Récupération de l'adresse de l'émetteur
+
+.Envoi d'un datagramme contenant la date et l'heure
+
 .Répétition du processus.
 
 
